@@ -1,5 +1,6 @@
 import Navbar from './Navbar'
 import Banner from './Banner'
+import Fab_menu from './Fab_menu'
 
 function App() {
   return (
@@ -7,6 +8,8 @@ function App() {
         <Navbar />
         <br /><br />
         <Banner />
+        <br /><br />
+        <Fab_menu />
     </>
   )
 }
