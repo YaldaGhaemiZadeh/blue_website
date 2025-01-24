@@ -2,7 +2,7 @@ const Blog = () => {
     return ( 
 
         <>
-        <div className="text-black w-[20rem] h-96 bg-blue-700 mb-[10rem] ml-[10px] pl-[1rem] pt-[3rem] rounded-[2rem] hover:bg-sky-400 cursor-default mt-[9px]">
+        <div className="text-black w-[20rem] h-96 bg-[#38bdf8] mb-[10rem] ml-[10px] pl-[1rem] pt-[3rem] rounded-[2rem] hover:bg-[#1d4ed8] cursor-default mt-[9px]">
             <p className="text-black font-bold text-2xl pl-[1rem]">
                 <p className="text-yellow-400">Category</p>
                 Title of blog

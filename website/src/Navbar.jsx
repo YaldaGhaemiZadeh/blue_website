@@ -1,22 +1,22 @@
+import Logo from "./assets/Logo";
+
 const Navbar = () => {
     return ( 
 
-        <nav className="bg-gradient-to-r from-blue-700 to-sky-400">
-           
-            <div className="max-w-screen-xl flex  justify-items-strech mx-auto p-6 italic">
-            {/* <Logo></Logo> */}
-             
-                <div className=" bg-[#38BDF8] px-5 py-1 rounded-lg flex-none"><button className="italic">SIGN IN</button></div>
-
+        <nav className="flex flex-row bg-gradient-to-r from-blue-700 to-sky-400 italic
+         max-w-[1000px px-3 py-3 text-2xl">
+            
+                <button className="w-[200px] h-[50px] px-3 my-4 mr-3 rounded-lg inline basis-2xs bg-[#38BDF8] ">Sign in</button>
 
                 <div className="w-[40rem]"></div>
 
-                <div className="p-1 space-x-3 ">
-                <a href="./blog" className=" pb-6">CONTACT</a>
-                <a href=".about" className=" pb-6">COMMUNITY</a>
-                <a href=".login" className=" pb-6">LANGUAGES</a>
+                <div className="p-1 space-x-3 flex justify-center py-5 mx-3">
+                <a href="./blog" className="basis-2xs ">SHOP</a>
+                <a href=".about" className="basis-2xs ">COMMUNITY</a>
+                <a href=".login" className="basis-2xs ">LANGUAGES</a>
                 </div>
-            </div>
+
+                <button id="logo" className="bg-[#008eff] w-[80px] h-[80px] flex   rounded-full pb-5"><Logo /></button>
         </nav>
 
      );

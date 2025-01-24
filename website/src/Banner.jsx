@@ -1,7 +1,7 @@
 const Banner = () => {
     return ( 
 
-        <div className="bg-[#1D4Ed8] flex flex-1 p-4 mx-6 h-[25rem] rounded-[25px]">
+        <div className="bg-[#1D4Ed8] flex flex-1 mx-6 h-[25rem] rounded-[25px]">
                 
             <svg width="1118" height="433" viewBox="0 0 1118 433" fill="none" xmlns="http://www.w3.org/2000/svg">
 <rect y="2" width="1062" height="431" rx="30" fill="#1D4ED8"/>
