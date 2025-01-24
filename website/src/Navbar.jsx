@@ -10,7 +10,7 @@ const Navbar = () => {
 
                 <div className="w-[40rem]"></div>
 
-                <div className="p-1 space-x-3 flex justify-center py-5 mx-3">
+                <div className="p-1 space-x-3 flex justify-center py-5 mx-3 text-[#101a59] font-semibold">
                 <a href="./blog" className="basis-2xs ">SHOP</a>
                 <a href=".about" className="basis-2xs ">COMMUNITY</a>
                 <a href=".login" className="basis-2xs ">LANGUAGES</a>
