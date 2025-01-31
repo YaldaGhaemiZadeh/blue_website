@@ -2,6 +2,7 @@ import Navbar from './Navbar'
 import Banner from './Banner'
 import Slider from './Slider'
 import Fab_menu from './Fab_menu'
+import Footer from './Footer'
 
 function App() {
   return (
@@ -13,6 +14,8 @@ function App() {
         <Slider />
         <br /><br />
         <Fab_menu />
+        <br /><br />
+        <Footer />
     </>
   )
 }

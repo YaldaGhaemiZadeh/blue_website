@@ -4,9 +4,8 @@ import Sun from "./assets/Sun";
 
 const Fabmenu = () => {
     return ( 
-        <div className="fixed bottom-[20px] right-[20px]">
+        <div className="fixed bottom-[20px] right-[20px] z-40">
             <div className="flex flex-col ">
-            {/*  */}
         
         <button id="fabMenu1" className="bg-[#008eff] w-[50px] h-[50px] rounded-full hover:bg-[#001fe6] ml-2 mb-2 pl-[5px] pb-0.5">
             <Sun />
