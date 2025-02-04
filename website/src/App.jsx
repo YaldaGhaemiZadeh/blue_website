@@ -1,8 +1,8 @@
-import Navbar from './Navbar'
-import Banner from './Banner'
-import Slider from './Slider'
-import Fab_menu from './Fab_menu'
-import Footer from './Footer'
+import Navbar from './components/Navbar'
+import Banner from './components/Banner'
+import Slider from './components/Slider'
+import Fab_menu from './components/Fab_menu'
+import Footer from './components/Footer'
 
 function App() {
   return (
