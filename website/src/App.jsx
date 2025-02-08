@@ -1,3 +1,4 @@
+// import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import Navbar from './components/Navbar'
 import Banner from './components/Banner'
 import Slider from './components/Slider'
