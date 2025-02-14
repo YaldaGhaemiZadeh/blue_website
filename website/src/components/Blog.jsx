@@ -9,7 +9,7 @@ const Blog = () => {
     return ( 
         <>
         {/* Container */}
-        <div className="text-black w-[20rem] h-[26.5rem] bg-[#38bdf8] ml-[10px] pl-[1rem] 
+        <div className="text-black w-[20rem] h-[26.5rem] bg-[#38bdf8] ml-[1px] pl-[1rem] 
         pt-[2rem] rounded-[2rem] hover:bg-[#39aadb] cursor-default">
 
         {/* Title + Category */}
