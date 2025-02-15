@@ -1,6 +1,6 @@
-import Password from '../assets/Password'
-import Signin from '../assets/Signin'
-import Email from '../assets/Email'
+// import Password from '../assets/Password'
+// import Signin from '../assets/Signin'
+// import Email from '../assets/Email'
 
 const Log_sign = () => {
     return ( 
