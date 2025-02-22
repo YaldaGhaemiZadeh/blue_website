@@ -17,7 +17,7 @@ const Navbar = () => {
                 <a href=".login" className="basis-2xs ">LANGUAGES</a>
                 </div>
 
-                <button id="logo" className="bg-[#008eff] w-[80px] h-[80px] flex   rounded-full pb-5"><Logo /></button>
+                <button id="logo" className="bg-[#008eff] w-[80px] h-[80px] flex   rounded-full pb-5"><a href="/dashboard"><Logo /></a></button>
         </nav>
 
      );

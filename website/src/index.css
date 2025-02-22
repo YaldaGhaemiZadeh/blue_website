@@ -11,10 +11,18 @@
     background: transparent;
     justify-content: center; 
     padding-left: 30px; padding-top: 10px;  
-  
-}
+  }
+
+  .custom-btn{
+    width: 300px;
+    height: 80px;
+    border-radius: 15px;
+    background: #1D4ED8;  
+    padding-left: 60px;
+  }
 
 }
+
 
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
