@@ -40,14 +40,14 @@
   .btn1-show{ animation: show 0.5s forwards; }
   .btn1-hide{ animation: hide 0.5s forwards; }
 
-  @keyframes show { from { transform: translateY( -6rem ); }}
-  @keyframes kide { to { transform: translateY( -6rem ); }}
+  @keyframes show { from { transform: translateY( -4rem ); }}
+  @keyframes hide { to { transform: translateY( -4rem ); }}
 
-  .btn2-show{ animation: show 0.5s forwards; }
-  .btn2-hide{ animation: hide 0.5s forwards; }
+  .btn2-show{ animation: btn2-show 0.5s forwards; }
+  .btn2-hide{ animation: btn2-hide 0.5s forwards; }
 
-  @keyframes show { from { transform: translateY( -6rem ); }}
-  @keyframes kide { to { transform: translateY( -6rem ); }}
+  @keyframes btn2-show { from { transform: translateY( -8rem ); }}
+  @keyframes btn2-hide { to { transform: translateY( -8rem ); }}
 
 
 :root {
