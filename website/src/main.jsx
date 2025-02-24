@@ -4,7 +4,8 @@ import { createRoot } from 'react-dom/client'
 import './index.css'
 import App from './App.jsx'
 import Log_sign from './components/Login_signin.jsx';
-import User_dashboard from './components/User_dashboard.jsx'
+import Dashboard from './components/Dashboard.jsx'; 
+
 
 const router = createBrowserRouter([{
   path: '/',
@@ -14,7 +15,7 @@ const router = createBrowserRouter([{
   element: <Log_sign />
 },{
   path: '/dashboard',
-  element: <User_dashboard />
+  element: <Dashboard />
 }
 
 ]); 
