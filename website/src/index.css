@@ -43,6 +43,12 @@
   @keyframes show { from { transform: translateY( -6rem ); }}
   @keyframes kide { to { transform: translateY( -6rem ); }}
 
+  .btn2-show{ animation: show 0.5s forwards; }
+  .btn2-hide{ animation: hide 0.5s forwards; }
+
+  @keyframes show { from { transform: translateY( -6rem ); }}
+  @keyframes kide { to { transform: translateY( -6rem ); }}
+
 
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
