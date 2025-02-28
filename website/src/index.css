@@ -35,6 +35,10 @@
     padding-left: 60px;
   }
 
+  .fixLater{
+    transform: translateY(180deg);
+  }
+
 }
 
   .btn1-show{ animation: show 0.5s forwards; }
