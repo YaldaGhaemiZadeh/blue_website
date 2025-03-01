@@ -1,8 +1,9 @@
 
 const Dashboard = () => {
-    return ( 
-        <div className='mx-96 my-96'>
-        </div>
+    return (
+
+        <div className='mx-96 my-96'></div>
+        
      );
 }
  
