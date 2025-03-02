@@ -1,7 +1,6 @@
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import Blog from './Blog'
-import '../index.css'
 
 const Swiperslider = () => {
     return ( 

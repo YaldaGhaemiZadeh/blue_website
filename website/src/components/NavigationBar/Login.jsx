@@ -1,4 +1,4 @@
-import Login_svg from "../assets/Login._svg";
+import Login_svg from "../../assets/Login._svg";
 
 const Login = () => {
     return ( 

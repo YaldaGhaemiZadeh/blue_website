@@ -1,6 +1,6 @@
 import { useState } from "react";
-import Heart from "../assets/heart";
-import Heart_empty from "../assets/heart_empty";
+import Heart from "../../assets/heart";
+import Heart_empty from "../../assets/heart_empty";
 
 const Blog = () => {
 

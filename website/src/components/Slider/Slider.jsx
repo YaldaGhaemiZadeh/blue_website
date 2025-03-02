@@ -1,7 +1,7 @@
 // import Blog from './Blog'
 import Swiperslider from "./Swiper_slider";
-import Next_svg from '../assets/Next'
-import Prev_svg from '../assets/Prev'
+import Next_svg from '../../assets/Next'
+import Prev_svg from '../../assets/Prev'
 import { Swiper } from 'swiper/react';
 import { useState } from 'react';
 import { Controller } from 'swiper/modules';
