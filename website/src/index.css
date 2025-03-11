@@ -4,6 +4,8 @@
 
 @layer utilities {
 
+  .transformY { transform: rotateY(180deg); }
+
   .clip-path { clip-path: ellipse(85% 100% at 50% 100%); }
 
   .custom-fab{
@@ -35,9 +37,8 @@
     padding-left: 60px;
   }
 
-  .fixLater{
-    transform: translateY(180deg);
-  }
+    /* #card:hover .front { transform: rotateY(180deg); }  */
+    /* #card:hover .back { transform: rotateY(180deg); } */
 
 }
 
