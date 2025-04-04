@@ -3,7 +3,7 @@ import Login_svg from "../../assets/Login._svg";
 const Login = () => {
     return ( 
 
-<div id='login' className="absolute backface-hidden flex flex-row w-[600px] h-[400px] bg-[#0763af] my-[4rem] rounded-2xl italic">
+<div id='login' className="absolute transformY flex flex-row w-[600px] h-[400px] bg-[#0763af] my-[4rem] rounded-2xl italic">
     
     <div id='black' className="w-[350px] h-[400px] bg-[#313131] flex flex-col justify-center rounded-l-2xl">
 

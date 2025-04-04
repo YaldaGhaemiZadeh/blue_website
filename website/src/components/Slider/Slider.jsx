@@ -13,7 +13,7 @@ const Slider = () => {
 
     return ( 
 
-        <div id="container" className="pt-5 pl-3 bg-[#3F3F3F] w-[1015px] h-[550px] mx-6 rounded-[2rem]">
+        <div id="container" className="ml-12 pt-5 pl-3 bg-[#3F3F3F] w-[1015px] h-[550px] mx-6 rounded-[2rem]">
                 <Swiperslider />
                 <div className='flex mx-72 pt-[14px] gap-12'>
                     <button className='custom-btn'><Prev_svg />
