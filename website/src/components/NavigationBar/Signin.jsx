@@ -3,7 +3,7 @@ import Signin_svg from "../../assets/Signin_svg";
 const Signin = () => {
     return ( 
 
-<div id='signin' className="absolute backface-hidden flex flex-row w-[600px] h-[400px] bg-[#0763af] mt-[4rem] rounded-2xl italic">
+<div id='signin' className="absolute flex flex-row w-[600px] h-[400px] bg-[#0763af] mt-[4rem] rounded-2xl italic">
     <div id='black' className="w-[350px] h-[400px] bg-[#313131] flex flex-col justify-center rounded-l-2xl">
 
         <div className="mx-[50px] mt-3">
