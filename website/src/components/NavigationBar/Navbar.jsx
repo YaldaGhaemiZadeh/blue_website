@@ -4,10 +4,10 @@ const Navbar = () => {
 
     return ( 
 
-        <nav className="flex flex-row bg-gradient-to-r from-blue-700 to-sky-400 italic
-         max-w-[1000px px-3 py-3 text-2xl">
+        <nav className="fixed flex flex-row bg-gradient-to-r from-blue-700 to-sky-400 italic
+         max-w-[1120px] px-3 py-3 text-2xl shadow-xl z-40">
             
-                <button className="w-[200px] h-[50px] px-3 my-4 mr-3 rounded-lg inline basis-2xs bg-[#38BDF8]"><a href="/register">SIGN IN</a></button>
+            <a href="/register"><button className="w-[200px] h-[50px] px-3 my-4 mr-3 rounded-lg inline basis-2xs bg-[#38BDF8]">SIGN IN</button></a>
 
                 <div className="w-[40rem]"></div>
 
@@ -17,7 +17,7 @@ const Navbar = () => {
                 <a href=".login" className="basis-2xs ">LANGUAGES</a>
                 </div>
 
-                <button id="logo" className="bg-[#008eff] w-[80px] h-[80px] flex   rounded-full pb-5"><a href="/dashboard"><Logo /></a></button>
+                <button id="logo" className="bg-[#008eff] w-[80px] h-[80px] flex rounded-full pb-5 shadow-xl/20"><a href="/dashboard"><Logo /></a></button>
         </nav>
 
      );

@@ -1,5 +1,5 @@
-import Whatsapp from "../assets/Whatsapp";
-import Github from "../assets/Github";
+import Whatsapp from "../../assets/Whatsapp";
+import Github from "../../assets/Github";
 
 const Footer = () => {
     return ( 

@@ -1,8 +1,7 @@
-import Hamburger from "../assets/Hamburger";
-import Mag_glass from "../assets/Mag_glass";
-import Sun from "../assets/Sun";
+import Hamburger from "../../assets/Hamburger";
+import Mag_glass from "../../assets/Mag_glass";
+import Sun from "../../assets/Sun";
 import { useState } from "react";
-import '../index.css'
 
 const Fabmenu = () => {
 

@@ -4,7 +4,7 @@ import { createRoot } from 'react-dom/client'
 import './index.css'
 import App from './App.jsx'
 import Dashboard from './components/Dashboard/Dashboard.jsx'; 
-import Register from './components/NavigationBar/Register.jsx';
+import Register from './components/NavigationBar/Registeration/Register.jsx';
 import Product_temp from './components/Shop/Product_template.jsx';
 
 

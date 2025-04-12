@@ -1,10 +1,9 @@
 import Navbar from './components/NavigationBar/Navbar'
-import Banner from './components/Banner'
+import Banner from './components/Single_components/Banner'
 import Slider from './components/Slider/Slider'
 import Shop_items from './components/Shop/Shop_items_container'
-// import Btext from './components/Big_text'
-import Fab_menu from './components/Fab_menu'
-import Footer from './components/Footer'
+import Fab_menu from './components/Single_components/Fab_menu'
+import Footer from './components/Single_components/Footer'
 import Loader_b from './components/Loader/Loader_bg'
 
 function App() {
@@ -12,6 +11,8 @@ function App() {
     <>
         <Loader_b />
         <Navbar />
+        <br /><br />
+        <br /><br />
         <br /><br />
         <Banner />
         <br /><br />
