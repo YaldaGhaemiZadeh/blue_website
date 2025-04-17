@@ -1,9 +1,11 @@
-import Product_table from "./Product_table";
+import Product_table from "./ProductPropertiesTable";
+import Product_image from "./ProductImageGallery";
+
 
 const Product_temp = () => {
 
     const title = 'item number one model x serie y'
-    const price = 2000
+    const price = 2000000 + '$'
     
     return ( 
 
@@ -17,7 +19,7 @@ const Product_temp = () => {
                 <div className="pt-5 pl-5 h-28 font-sans text-[30px] font-semibold">{title}</div>
 
                 {/* properties */}
-                <div className="w-[500px] h-60 overflow-auto">
+                <div className="w-[500px] h-60 overflow-auto p-5">
                 <Product_table />
                 <br /><br />
                 <p>
@@ -30,14 +32,16 @@ const Product_temp = () => {
                 {/* price and button part */}
                 <div className="flex flex-row w-[500px] h-[88px]">
                     <p className="font-sans text-[30px] font-semibold pt-5 pl-5">{price}</p>
-                    <div className="w-64 h-2"></div>
-                    <button className="h-12 mt-5 p-3 font-sans text-[20px] font-semibold border border-cyan-500 border-solid">add to cart</button>
+                    <div className="w-44 h-2"></div>
+                    <button className="w-32 h-12 mt-5 font-sans text-[20px] font-semibold bg-[#008eff] rounded-xl">add to cart</button>
                 </div> 
 
             </div>
             
             {/* pictures part */}
-            <div className="flex justify-center pt-60 w-[520px] h-[440px] ">pic</div>
+            <div className="flex justify-center pt-5 w-[520px] h-[440px] ">
+                <Product_image />
+            </div>
         </div>
     </div>    
      );
