@@ -1,7 +1,7 @@
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Autoplay, Pagination, Navigation } from 'swiper/modules';
 import 'swiper/css';
-import Blog from './Blog'
+import Blog from '../Blog/BlogCard'
 
 const Swiperslider = () => {
     return ( 

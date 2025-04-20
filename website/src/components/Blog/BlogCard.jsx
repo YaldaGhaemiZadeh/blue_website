@@ -2,15 +2,16 @@ import { useState } from "react";
 import Heart from "../../assets/heart";
 import Heart_empty from "../../assets/heart_empty";
 
+
 const Blog = () => {
 
     const [isFilled, setIsFilled] = useState(false);
 
     return ( 
-        <>
+        <a href="/blog">
         {/* Container */}
         <div className="text-black w-[20rem] h-[26.5rem] bg-[#38bdf8] ml-[1px] pl-[1rem] 
-        pt-[2rem] rounded-[2rem] hover:bg-[#39aadb] cursor-default">
+        pt-[2rem] rounded-[2rem] hover:bg-[#39aadb]">
 
         {/* Title + Category */}
         <div className="font-bold text-3xl tracking-wide">
@@ -28,7 +29,7 @@ const Blog = () => {
             </button>
 
         </div>
-        </>
+        </a>
      );
 }
  

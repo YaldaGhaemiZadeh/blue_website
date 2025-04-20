@@ -1,6 +1,6 @@
 import Navbar from './components/NavigationBar/Navbar'
 import Banner from './components/Single_components/Banner'
-import Slider from './components/Slider/Slider'
+import Slider from './components/Slider/SliderContainer'
 import Shop_items from './components/Shop/Shop_items_container'
 import Fab_menu from './components/Single_components/Fab_menu'
 import Footer from './components/Single_components/Footer'

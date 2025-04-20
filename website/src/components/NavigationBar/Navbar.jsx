@@ -7,7 +7,7 @@ const Navbar = () => {
         <nav className="fixed flex flex-row bg-gradient-to-r from-blue-700 to-sky-400 italic
          max-w-[1120px] px-3 py-3 text-2xl shadow-xl z-40">
             
-            <a href="/register"><button className="w-[200px] h-[50px] px-3 my-4 mr-3 rounded-lg inline basis-2xs bg-[#38BDF8]">SIGN IN</button></a>
+            <a href="/register"><button className="w-[200px] h-[50px] px-3 my-4 mr-3 rounded-lg inline basis-2xs bg-[#38BDF8] hover:bg-[#001FE6]">SIGN UP</button></a>
 
                 <div className="w-[40rem]"></div>
 

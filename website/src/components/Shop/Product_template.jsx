@@ -4,7 +4,7 @@ import Product_image from "./ProductImageGallery";
 
 const Product_temp = () => {
 
-    const title = 'item number one model x serie y'
+    const title = 'Item number 1 model X'
     const price = 2000000 + '$'
     
     return ( 
@@ -12,7 +12,7 @@ const Product_temp = () => {
     <div className="flex justify-center mt-10">  
 
         {/* main container */}
-        <div className="flex flex-row w-[1020px] h-[440px] rounded-2xl bg-[#313131]">
+        <div className="flex flex-row w-[1020px] h-[440px] rounded-2xl shadow-xl bg-[#313131]">
 
             {/* text part */}
             <div className="w-[500px] h-[440px]">
@@ -33,7 +33,7 @@ const Product_temp = () => {
                 <div className="flex flex-row w-[500px] h-[88px]">
                     <p className="font-sans text-[30px] font-semibold pt-5 pl-5">{price}</p>
                     <div className="w-44 h-2"></div>
-                    <button className="w-32 h-12 mt-5 font-sans text-[20px] font-semibold bg-[#008eff] rounded-xl">add to cart</button>
+                    <button className="w-32 h-12 mt-5 font-sans text-[20px] font-semibold bg-[#008eff] rounded-xl hover:bg-[#1b78c4]">add to cart</button>
                 </div> 
 
             </div>

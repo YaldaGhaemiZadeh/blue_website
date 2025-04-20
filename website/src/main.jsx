@@ -6,6 +6,7 @@ import App from './App.jsx'
 import Dashboard from './components/Dashboard/Dashboard.jsx'; 
 import Register from './components/NavigationBar/Registeration/Register.jsx';
 import Product_temp from './components/Shop/Product_template.jsx';
+import Blog_template from "./components/Blog/BlogTemplate";
 
 
 const router = createBrowserRouter([{
@@ -20,6 +21,9 @@ const router = createBrowserRouter([{
 },{
   path: '/product',
   element: <Product_temp />
+},{
+  path: '/blog',
+  element: <Blog_template />
 }
 
 ]); 
