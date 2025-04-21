@@ -12,7 +12,7 @@ const Loader_b = () => {
     return (
     <>
         {visible && <div className="fixed w-[1120px] h-[1000px] bg-[#121212] z-50">
-            <div className="fixed top-[250px] right-[515px] z-50">
+            <div className='flex justify-center pt-64'>
                 <div>
                     <Loader_l />
                 </div>
