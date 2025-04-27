@@ -3,7 +3,7 @@ import Banner from './components/Single_components/Banner'
 import Slider from './components/Slider/SliderContainer'
 import Shop_items from './components/Shop/ProductsContainer'
 import Fab_menu from './components/Single_components/Fab_menu'
-import Footer from './components/Single_components/Footer'
+import Footer from './components/Footer/Footer'
 import Loader_b from './components/Loader/Loader_bg'
 
 function App() {
