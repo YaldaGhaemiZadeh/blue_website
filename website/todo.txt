@@ -3,20 +3,21 @@ todo
 1.blog template ♦
 2.product card ui ♦
 3.fix register end-point
-4.footer ui
-5.popup 
+4.footer ui ♦
+5.toast notisfication
 6.dashboard
 7.login ui form tag and label
-8.tooltip footer
-9.center everything
+8.tooltip footer ♦
+9.center everything ♦
 10.cleanup palette
 11.light mode 
-12.search bar
+12.search bar ♦
 13.language
-14.shop & blog
+14.shop ♦ & blog
 
 1.seo alts
 2.working register page
 3.working user and admin
 4.admin add blog and product
 5.font
+6.working searchbar

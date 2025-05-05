@@ -1,5 +1,6 @@
 import Login_svg from "../../../assets/Login._svg";
 
+
 const Login = () => {
     return ( 
 
@@ -17,7 +18,7 @@ const Login = () => {
     </div>
 
         <div className="w-32 h-32 mx-[60px] my-[110px]">
-            <button onClick={{}}><Login_svg /></button>
+            <button><Login_svg /></button>
             <p className="ml-8 text-xl justify-center">SIGN IN</p>
         </div>
 
