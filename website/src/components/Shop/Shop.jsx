@@ -9,6 +9,10 @@ const Shop = () => {
         { title: 'Iphone 16 blue', price: 300000 + '$', path: 'photos/phoneIphone16.png', id: 2 },
         { title: 'Iphone 16 blue', price: 300000 + '$', path: 'photos/phoneIphone16.png', id: 3 },
         { title: 'Samsung Galaxy S24 ultra', price: 200000 + '$', path: '/photos/phoneS24.png', id: 4 },
+        { title: 'Samsung Galaxy S24 ultra', price: 200000 + '$', path: '/photos/phoneS24.png', id: 5 },
+        { title: 'Iphone 16 blue', price: 300000 + '$', path: 'photos/phoneIphone16.png', id: 6 },
+        { title: 'Samsung Galaxy S24 ultra', price: 200000 + '$', path: '/photos/phoneS24.png', id: 7 },
+        { title: 'Iphone 16 blue', price: 300000 + '$', path: 'photos/phoneIphone16.png', id: 8 },
     ])
 
     return ( 

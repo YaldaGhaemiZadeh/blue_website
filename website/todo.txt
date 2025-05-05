@@ -17,7 +17,7 @@ todo
 
 1.seo alts
 2.working register page
-3.working user and admin
+3.working admin page
 4.admin add blog and product
 5.font
 6.working searchbar
