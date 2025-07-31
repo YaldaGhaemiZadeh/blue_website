@@ -11,6 +11,9 @@ const BlogForm = () => {
                    <option value="">
                     News
                    </option>
+                   <option value="">
+                    Others
+                   </option>
                  </select>
 
                 </div>
