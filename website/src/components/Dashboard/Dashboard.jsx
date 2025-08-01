@@ -24,6 +24,7 @@ return (
                     <li><a href="#" className="block p-2 border-b-4 border-blue-700 hover:bg-[#565656] rounded text-xl">Products</a></li>
                     <li><a href="#" className="block p-2 border-b-4 border-blue-700 hover:bg-[#565656] rounded text-xl">Graphs</a></li>
                     <li><a href="#" className="block p-2 border-b-4 border-blue-700 hover:bg-[#565656] rounded text-xl">Settings</a></li>
+                    <br />
                     <li><button onClick={toggleSidebar} className="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700">{isOpen ? <img src='icons/arrow.svg' /> : <img src='icons/arrow.svg' />}</button></li>
                  </ul>
                 </div>
