@@ -33,7 +33,7 @@ const BlogForm = () => {
             <input value = { titleInput } onChange = { e => setTitleInput( e.target.value ) } id = "title" type = "text" placeholder = "Title..." className = "w-[850px] min-w-[700px] h-20 rounded-xl text-[50px] italic p-6" />
 
                 {/* editor buttons */}
-                <div className = "w-[850px] min-w-[700px] h-[60px] p-1 flex gap-2 justify-between text-3xl bold italic">
+                <div className = "w-[850px] min-w-[700px] h-[60px] p-1 flex justify-between text-3xl bold italic">
                  <select id = "category" value = { category } onChange = { e => setCategory( e.target.value ) } className = "w-[170px] h-[50px] rounded-lg p-1 bg-[#3b3b3b] text-[#9ca3af]">
                    <option value="Category">
                     Category
@@ -49,12 +49,11 @@ const BlogForm = () => {
                    </option>
                  </select>
 
-                    <button type = "submit" className = "w-[120px] h-[50px] bg-green-700 rounded-lg">Post</button>
-                    <button type = "button" onClick = { clearInput } className = "w-[120px] h-[50px] bg-red-900 rounded-lg">Clear</button>
-                    <button type = "button" className = "w-[120px] h-[50px] bg-[#1949a3] rounded-lg">Photo</button>
-                    <button type = "button" className = "w-[120px] h-[50px] bg-[#3b3b3b] rounded-lg">???</button>
-                    <button type = "button" className = "w-[120px] h-[50px] bg-[#3b3b3b] rounded-lg">???</button>
-                    <button type = "button" className = "w-[120px] h-[50px] bg-[#3b3b3b] rounded-lg">???</button>
+                    <button type = "submit" className = "w-[120px] h-[50px] bg-green-700 rounded-lg flex p-2 content-center"><img src="icons/post.svg" className="w-7 h-7" alt="" />Post</button>
+                    <button type = "button" onClick = { clearInput } className = "w-[120px] h-[50px] bg-red-900 rounded-lg flex p-2 content-center"><img src="icons/eraser.svg" className="w-7 h-7" alt="" />Clear</button>
+                    <button type = "button" className = "w-[130px] h-[50px] bg-[#1949a3] rounded-lg flex p-2 content-center"><img src="icons/add_photo.svg" alt="" className="w-7 h-7" />Photo</button>
+                    <button type = "button" className = "w-[140px] h-[50px] bg-[#3b3b3b] rounded-lg flex p-2 content-center"><img src="icons/article_person.svg" alt="" className="w-7 h-7" />Author</button>
+                    <button type = "button" className = "w-[120px] h-[50px] bg-[#3b3b3b] rounded-lg flex p-2 content-center">???</button>
 
                </div>
                {/* article writing area */}
