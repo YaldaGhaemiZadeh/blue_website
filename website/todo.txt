@@ -6,13 +6,13 @@ todo
 4.footer ui ♦
 5.toast notisfication
 6.dashboard
-7.login ui form tag and label
+7.login ui form: tag and label
 8.tooltip footer ♦
 9.center everything ♦
 10.cleanup palette
-11.light mode 
+11.light mode X
 12.search bar ♦
-13.language
+13.language X
 14.shop ♦ & blog
 
 1.seo alts

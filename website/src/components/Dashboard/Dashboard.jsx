@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import BlogForm from './BlogEditor/BlogForm'
+import BlogForm from './BlogEditor/Editor'
 
 const Dashboard = () => {
 
@@ -20,7 +20,7 @@ return (
                 {/* Buttons */}
                 <div className='p-5'>
                  <ul className='flex flex-col gap-2'>
-                    <li><a href="#" className="block p-2 border-b-4 border-blue-700 hover:bg-[#565656] rounded text-xl">Blogs</a></li>
+                    <li><a href="/adminblogslist" className="block p-2 border-b-4 border-blue-700 hover:bg-[#565656] rounded text-xl">Blogs</a></li>
                     <li><a href="#" className="block p-2 border-b-4 border-blue-700 hover:bg-[#565656] rounded text-xl">Products</a></li>
                     <li><a href="#" className="block p-2 border-b-4 border-blue-700 hover:bg-[#565656] rounded text-xl">Graphs</a></li>
                     <li><a href="#" className="block p-2 border-b-4 border-blue-700 hover:bg-[#565656] rounded text-xl">Settings</a></li>
