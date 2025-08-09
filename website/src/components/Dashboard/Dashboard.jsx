@@ -1,10 +1,15 @@
 import { useState } from 'react'
-import BlogForm from './BlogEditor/Editor'
+// import BlogForm from './BlogEditor/Editor'
+// import BlogList from './BlogEditor/BlogList'
+import ABS from './BlogEditor/AdminBlogSection'
 
 const Dashboard = () => {
 
 const [isOpen, setIsOpen] = useState(false)
 const toggleSidebar = () => setIsOpen(!isOpen)
+
+const [ isBlogVisible, setIsBlogVisible ] = useState(false)
+const toggleButton = () => setIsBlogVisible(!isBlogVisible)
 
 return ( 
     <div className='flex min-h-screen'>
@@ -20,7 +25,7 @@ return (
                 {/* Buttons */}
                 <div className='p-5'>
                  <ul className='flex flex-col gap-2'>
-                    <li><a href="/adminblogslist" className="block p-2 border-b-4 border-blue-700 hover:bg-[#565656] rounded text-xl">Blogs</a></li>
+                    <li><button onClick={ toggleButton } className="w-[202px] p-2 border-b-4 border-blue-700 hover:bg-[#565656] rounded text-xl">Blogs</button></li>
                     <li><a href="#" className="block p-2 border-b-4 border-blue-700 hover:bg-[#565656] rounded text-xl">Products</a></li>
                     <li><a href="#" className="block p-2 border-b-4 border-blue-700 hover:bg-[#565656] rounded text-xl">Graphs</a></li>
                     <li><a href="#" className="block p-2 border-b-4 border-blue-700 hover:bg-[#565656] rounded text-xl">Settings</a></li>
@@ -34,9 +39,9 @@ return (
          </button>
         <main className={`flex-1 transition-all duration-300 ease-in-out
          ${ isOpen ? 'ml-64' : 'ml-0' }`}>
-
-         
-         <BlogForm />
+         <div>
+             ${ isBlogVisible ? <ABS /> : <></> }
+         </div>
         </main>
 
     </div>
